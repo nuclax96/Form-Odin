@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-sidebar">
+        <div class="backdrop">
+          <img class="backdrop-img" src="../img/odin-lined.png" />
+          <p>ODIN</p>
+        </div>
+      </div>
+      <div class="grid-main">
+        <div class="main-content-text">
+          <p class="main-text">
+            This is not a real online service! Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Necessitatibus, commodi!
+          </p>
+          <p>Sign up now to get started.</p>
+          <p class="catchphrase">You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="container-form">
+          <form action="/" method="POST">
+            <div class="form-container-div">
+              <div class="form-div">
+                <label for="fname">FIRST NAME :</label>
+                <input
+                  class="input-box"
+                  type="text"
+                  name="First_Name"
+                  id="fname"
+                />
+              </div>
+              <div class="form-div">
+                <label for="lname">LAST NAME :</label>
+                <input
+                  class="input-box"
+                  type="text"
+                  name="Last_Name"
+                  id="lname"
+                />
+              </div>
+              <div class="form-div">
+                <label for="email">EMAIL :</label>
+                <input class="input-box" type="email" name="Email" id="email" />
+              </div>
+              <div class="form-div">
+                <label for="phone">PHONE NUMBER :</label>
+                <input
+                  class="input-box"
+                  type="number"
+                  name="Phone"
+                  id="phone"
+                />
+              </div>
+              <div class="form-div">
+                <label for="password">PASSWORD :</label>
+                <input
+                  class="input-box"
+                  type="password"
+                  name="password"
+                  id="password "
+                />
+              </div>
+              <div class="form-div">
+                <label for="password_confirm">CONFIRM PASSWORD :</label>
+                <input
+                  class="input-box"
+                  type="password"
+                  name="password_confirm"
+                  id="password_confirm"
+                />
+              </div>
+            </div>
+            <div class="form-footer">
+              <button class="create-act--btn" type="submit">
+                Create Account
+              </button>
+              <div class="login">
+                <p>Already have an account ?</p>
+                <a href="#">Login</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
